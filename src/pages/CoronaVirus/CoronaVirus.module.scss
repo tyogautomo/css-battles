@@ -1,6 +1,5 @@
 $dots: 'big' 90px 60px 50px,'medium' 60px 200px 110px,'small' 33px 60px 200px;
 $spikes: ('vertical' 0deg, 'diagonal1' 60deg, 'diagonal2' 120deg);
-
 .container{
   width: 100%;
   height: 100vh;
@@ -9,7 +8,6 @@ $spikes: ('vertical' 0deg, 'diagonal1' 60deg, 'diagonal2' 120deg);
   justify-content: center;
   align-items: center;
 }
-
 .virus_body {
   background-color: #F3AC3C;
   width: 300px;
@@ -19,12 +17,10 @@ $spikes: ('vertical' 0deg, 'diagonal1' 60deg, 'diagonal2' 120deg);
   justify-content: center;
   align-items: center;
   position: relative;
-
   .dot{
     background: #9B8136;
     position: absolute;
   }
-
   @each $size, $value, $top, $left in $dots {
     .dot_#{$size} {
       width: $value;
@@ -35,7 +31,6 @@ $spikes: ('vertical' 0deg, 'diagonal1' 60deg, 'diagonal2' 120deg);
       z-index: 2;
     }
   }
-
   .spike {
     background: #F3AC3C;
     width: 40px;
@@ -44,11 +39,9 @@ $spikes: ('vertical' 0deg, 'diagonal1' 60deg, 'diagonal2' 120deg);
     position: absolute;
     z-index: 1;
   }
-
   @each $type, $degree in $spikes {
     .spk_#{$type} {
       transform: rotate($degree) translateY(-30px);
     }
   }
-
 }
