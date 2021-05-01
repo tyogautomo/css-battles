@@ -6,9 +6,9 @@ const CoronaVirus = () => {
   return (
     <div className={styles.container}>
       <div className={styles.center}>
-        <div className={`${styles.dot} ${styles.dot_var1}`}></div>
-        <div className={`${styles.dot} ${styles.dot_var2}`}></div>
-        <div className={`${styles.dot} ${styles.dot_var3}`}></div>
+        <div className={`${styles.dot} ${styles.dot_80px}`}></div>
+        <div className={`${styles.dot} ${styles.dot_40px}`}></div>
+        <div className={`${styles.dot} ${styles.dot_20px}`}></div>
       </div>
     </div>
   );

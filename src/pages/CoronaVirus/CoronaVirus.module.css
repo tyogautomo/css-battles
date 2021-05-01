@@ -19,4 +19,26 @@
   height: 300px;
   border-radius: 50%;
 }
+
+.center .dot {
+  background: #9B8136;
+}
+
+.center .dot_80px {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+.center .dot_40px {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.center .dot_20px {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
 /*# sourceMappingURL=CoronaVirus.module.css.map */
